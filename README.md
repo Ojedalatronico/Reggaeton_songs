@@ -16,4 +16,14 @@ Tenemos que utilizar natural language processing con recurrent neural netaworks
 -> ML models
 -> DL models
 
-### ¿Producción?
+## Dataset
+
+This dataset is made by webscraping to www.letras.com
+
+## Similar projects
+
+Analiza sentimientos en canciones de reggaeton: https://github.com/fervillarce/reggaeton-nlp-project
+
+Analiza contenido sexual en canciones de reggaeton https://github.com/JonathanElejalde/reggaeton_songs_nlp
+
+Scraper de todas las letras: https://github.com/antero10/reggaeton_lyrics_scrapper
