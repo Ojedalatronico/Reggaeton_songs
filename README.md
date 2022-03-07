@@ -1,19 +1,19 @@
 # bdmlpt1021 Project
 
-El objetivo principal poder escribir una canción de reggaeton a partir de  determinados parametros como palabras que queramos que contengan nuestra letra de reggaeton.
+The main objective is to be able to write a reggaeton song based on certain parameters such as words that we want our reggaeton lyrics to contain. (Maybe Telegram bot)
 
-## Steps
+## Steps (What we do)
 
 ### Web scrapping
-La data para nuestro projecto la obtendremos de hacer webscraping a las canciones de reggaeton existente, de esta manera manera entrenaremos a nuestra red neuronal.
-(la web a realizar web scrapping es letras.com)
+We got the data for our project by webscraping the existing reggaeton songs, in this way we trained our neural network.
+(the website to perform web scrapping is Letras.com)
 
 ### Preprocesing 
-Hay que realizar un proceso de limpieza de estos datos. Incluso preguntarnos si la mejor manera es tenerlo en un solo string o llevarlo a separado por versos. También entra preguntarnos si será ideal una traducción al inglés para su correcto funcionamiento
-Tenemos que utilizar natural language processing con recurrent neural netaworks
+It is necessary to carry out a cleaning process of this data. Even asking ourselves if the best way is to have it in a single string or to separate it by verses. It is also important to ask us if an English translation would be ideal for its correct operation.
+We have to use natural language processing with recurrent neural networks
+
 
 ### Training
--> ML models
 -> DL models
 
 ## Dataset
