@@ -10,7 +10,7 @@
 
 The main objective is to be able to write a reggaeton song based on first words parameters that we want in our reggaeton lyrics to contain with natural language processing with recurrent neural networks.
 
-And a really important fact, you can do it with a telegram bot!  https://t.me/JBalvin_Writer_bot
+And a really important fact, you can do it with our telegram bot!
 
 
 <p align="center">
