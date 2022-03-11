@@ -2,7 +2,7 @@
 <h3 align="center">Do you want write like J.Balvin write his songs? This project is for you</h3>
 <p align="center">
   <a href="https://t.me/JBalvin_Writer_bot">
-    <img alt="Try it on telegram, click here" src="https://img.shields.io/badge/Join%20the%20community-on%20GitHub%20Discussions-blue">
+    <img alt="Try it on telegram, click here" src="https://www.tuexpertoapps.com/wp-content/uploads/2014/03/telegram-perfil-01.jpg">
   </a>
 </p>
 
