@@ -1,10 +1,21 @@
-# bdmlpt1021 Project
+<h1 align="center" style="border-bottom: none;">🎶 Reggaeton songwriter 🎶</h1>
+<h3 align="center">Do you want write like J.Balvin write his songs? This project is for you</h3>
+<p align="center">
+  <a href="https://t.me/JBalvin_Writer_bot">
+    <img alt="Try it on telegram, click here" src="https://img.shields.io/badge/Join%20the%20community-on%20GitHub%20Discussions-blue">
+  </a>
+</p>
 
 #### Do you want write like J.Balvin write his songs? This project is for you
 
-The main objective is to be able to write a reggaeton song based on first works parameters that we want our reggaeton lyrics to contain. (Maybe Telegram bot)
+The main objective is to be able to write a reggaeton song based on first words parameters that we want in our reggaeton lyrics to contain with natural language processing with recurrent neural networks.
 
-![alt text](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJKMMTcbWEZDOQPwhHeLSmpCgcBlG98OmYrQ&usqp=CAU)
+And a really important fact, you can do it with a telegram bot!  https://t.me/JBalvin_Writer_bot
+
+
+<p align="center">
+  <img src="https://www.elcolombiano.com/binrepository/360x273/0c33/360d240/none/11101/AWNA/balvin_38652723_20210930183456.jpg"/>
+</p>
 
 ## Steps (What we do)
 
@@ -17,32 +28,18 @@ It was necessary to carry out a cleaning process of this data. We have worked wi
 We have to use natural language processing with recurrent neural networks
 
 ### Building the Model
-I decided to use keras, the algorithm used was "adam" and we used a total of 3 epochs (Maybe more in 2 days).
+I decided to use keras, the algorithm used was "adam" and we used a total of 10 epochs.
 
 ### Testing the Model
 Later we had to test the model.
-=======
-The main objective is to be able to write a reggaeton song based on certain parameters such as words that we want our reggaeton lyrics to contain. (Maybe Telegram bot)
 
-## Steps (What we do)
-
-### Web scrapping
-We got the data for our project by webscraping the existing reggaeton songs, in this way we trained our neural network.
-(the website to perform web scrapping is Letras.com)
-
-### Preprocesing 
-It is necessary to carry out a cleaning process of this data. Even asking ourselves if the best way is to have it in a single string or to separate it by verses. It is also important to ask us if an English translation would be ideal for its correct operation.
-We have to use natural language processing with recurrent neural networks
-
-
-### Training
--> DL models
-
-Look at these photes
-
+### Create telegram bot
+We want that you use this in a easy way, so write a bot to you, so, you can write like your favorite reggaeton singer.
+And, surprise, also sings.
 
 #### Do you want to test yourself?
 Go to telegram and use our bot.
+https://t.me/JBalvin_Writer_bot
 
 ## Similar projects
 
@@ -55,3 +52,17 @@ Scraper de todas las letras: https://github.com/antero10/reggaeton_lyrics_scrapp
 ## Why I do this project
 
 I believe that projects are moments to do things that we are not comfortable with, that take us out of our comfort zone. This is a strange project for me, but very fun. Having fun is also an important part of learning
+
+## What was the big challenge?
+
+If you want to train a model like this you really need time, a good computer or think about the data out the box. You can't did this in 5 minutes, prepare yourseft!
+
+
+## Photos
+
+You can see in this photo a training.
+
+Some example with past models
+
+
+
