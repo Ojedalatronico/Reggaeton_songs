@@ -3,7 +3,7 @@
 <p align="center">
   
   <a href="https://t.me/JBalvin_Writer_bot">
-    <img alt="https://img.shields.io/badge/Telegram-Bot-blue.svg?logo=telegram">
+    <img alt="https://img.shields.io/badge/Telegram-Bot-blue.svg?logo=telegram"/>
   </a>
 </p>
 
