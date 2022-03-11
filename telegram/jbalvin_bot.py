@@ -1,9 +1,9 @@
 from telegram.ext import Updater, CommandHandler, ConversationHandler, CallbackQueryHandler, MessageHandler, Filters
 from telegram import ChatAction, InlineKeyboardMarkup, InlineKeyboardButton
 from escritor import complete_text
+from grabador import audio
 from dotenv import load_dotenv
 import os
-from gtts import gTTS
 
 
 load_dotenv()
@@ -56,20 +56,13 @@ def input_text(update, context):
     )
     envio=complete_text(text)
     update.message.reply_text(envio)
-    audio(envio, chat)
-    return ConversationHandler.END
-
-def audio(envio, chat):
-    speech = gTTS(text = envio, lang = "es-es", slow =False)
-    speech.save("texto.ogg")
     chat.send_action(
         action=ChatAction.RECORD_VOICE,
         timeout=None
     )
-    chat.send_audio(
-        audio=open("texto.ogg", "rb")
-    )
-    os.unlink("texto.ogg")
+    audio(envio, chat)
+    return ConversationHandler.END
+
 
 if __name__ == '__main__':
     updater = Updater(token, use_context=True)
