@@ -62,7 +62,19 @@ If you want to train a model like this you really need time, a good computer or 
 
 You can see in this photo a training.
 
+<p align="center">
+  <img src="https://github.com/Ojedalatronico/Reggaeton_songs/blob/main/Imagenes/epochs.png?raw=true"/>
+</p>
+
 Some example with past models
 
-
+<p align="center">
+  <img src="https://github.com/Ojedalatronico/Reggaeton_songs/blob/main/Imagenes/Quiero.png?raw=true"/>
+</p>
+<p align="center">
+  <img src="https://github.com/Ojedalatronico/Reggaeton_songs/blob/main/Imagenes/atrevete.png?raw=true"/>
+</p>
+<p align="center">
+  <img src="https://github.com/Ojedalatronico/Reggaeton_songs/blob/main/Imagenes/Dale.png?raw=true"/>
+</p>
 

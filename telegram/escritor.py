@@ -14,7 +14,7 @@ max_id=len(tokenizer.word_index)
 dataset_size=tokenizer.document_count
 [encoded]=np.array(tokenizer.texts_to_sequences([text]))-1
 
-model=keras.models.load_model("Example2.h5")
+model=keras.models.load_model("Example3.h5")
 
 def preprocess(texts):
     X=np.array(tokenizer.texts_to_sequences(texts))-1
