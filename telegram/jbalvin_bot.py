@@ -3,6 +3,8 @@ from telegram import ChatAction, InlineKeyboardMarkup, InlineKeyboardButton
 from escritor import complete_text
 from dotenv import load_dotenv
 import os
+from gtts import gTTS
+
 
 load_dotenv()
 token=os.getenv("token")
@@ -52,8 +54,22 @@ def input_text(update, context):
         action=ChatAction.TYPING,
         timeout=None
     )
-    update.message.reply_text(complete_text(text))
+    envio=complete_text(text)
+    update.message.reply_text(envio)
+    audio(envio, chat)
     return ConversationHandler.END
+
+def audio(envio, chat):
+    speech = gTTS(text = envio, lang = "es-es", slow =False)
+    speech.save("texto.ogg")
+    chat.send_action(
+        action=ChatAction.RECORD_VOICE,
+        timeout=None
+    )
+    chat.send_audio(
+        audio=open("texto.ogg", "rb")
+    )
+    os.unlink("texto.ogg")
 
 if __name__ == '__main__':
     updater = Updater(token, use_context=True)

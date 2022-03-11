@@ -27,7 +27,7 @@ def next_char(text,temperature=1):
     char_id=tf.random.categorical(rescaled_logits,num_samples=1)+1
     return tokenizer.sequences_to_texts(char_id.numpy())[0]
  
-def complete_text(text,n_chars=100,temperature=0.4):
+def complete_text(text,n_chars=150,temperature=0.5):
     for _ in range(n_chars):
         text+=next_char(text,temperature)
     return text
