@@ -1,10 +1,11 @@
 <h1 align="center" style="border-bottom: none;">🎶 Reggaeton songwriter 🎶</h1>
 <h3 align="center">Do you want write like J.Balvin write his songs? This project is for you</h3>
 <p align="center">
-  <a href="https://t.me/JBalvin_Writer_bot">
-    <img alt="Try it on telegram, click here" src="https://imagenpng.com/wp-content/uploads/2021/01/telegram-4.jpg" width="50" height="50">
-  </a>
-</p>
+  
+ .. image:: https://img.shields.io/badge/Telegram-Bot-blue.svg?logo=telegram
+   :target: https://t.me/JBalvin_Writer_bot
+   :alt: Telegram Group
+
 
 The main objective is to be able to write a reggaeton song based on first words parameters that we want in our reggaeton lyrics to contain with natural language processing with recurrent neural networks.
 
